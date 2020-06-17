@@ -1,0 +1,35 @@
+{
+  "name": "mascoshares",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client-install": "cd client && npm install",
+    "client": "cd client && npm start",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LetsTrie/mascoshares.git"
+  },
+  "author": "MD. Sakib Khan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LetsTrie/mascoshares/issues"
+  },
+  "homepage": "https://github.com/LetsTrie/mascoshares#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "concurrently": "^5.2.0",
+    "express": "^4.17.1",
+    "got": "^11.3.0",
+    "jarallax": "^1.12.1",
+    "morgan": "^1.10.0",
+    "react-router-dom": "^5.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
