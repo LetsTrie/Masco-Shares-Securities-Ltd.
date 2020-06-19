@@ -30,12 +30,12 @@ const contact = () => {
             <div className='contactUsForm_flx_form'>
               <form action='#'>
                 <div className='textbox'>
-                  <label for='nameID'>Full Name</label> <br />
+                  <label htmlFor='nameID'>Full Name</label> <br />
                   <input type='text' placeholder='Your full name' id='nameID' />
                 </div>
 
                 <div className='textbox'>
-                  <label for='emailID'>Email</label> <br />
+                  <label htmlFor='emailID'>Email</label> <br />
                   <input
                     type='text'
                     placeholder='Your email address'
@@ -44,7 +44,7 @@ const contact = () => {
                 </div>
 
                 <div className='textarea'>
-                  <label for='messageID'> Your message </label> <br />
+                  <label htmlFor='messageID'> Your message </label> <br />
                   <textarea
                     id='messageID'
                     rows='4'

@@ -85,7 +85,9 @@ body {
 
 .homepage,
 .contactUs,
-.ourServicesPage {
+.ourServicesPage,
+.ourDirectors,
+.bodyWrapper {
   width: 90%;
   margin: 0 auto;
   min-height: 100vh;
@@ -98,7 +100,9 @@ body {
 @media (max-width: 1600px) {
   .homepage,
   .contactUs,
-  .ourServicesPage {
+  .ourServicesPage,
+  .ourDirectors,
+  .bodyWrapper {
     width: 98%;
   }
 }
@@ -106,7 +110,9 @@ body {
 @media (max-width: 1300px) {
   .homepage,
   .contactUs,
-  .ourServicesPage {
+  .ourServicesPage,
+  .ourDirectors,
+  .bodyWrapper {
     width: 100%;
   }
 }
@@ -2046,7 +2052,7 @@ nav .topNavClass .cdropdown .cdropdown_list .cnav-sublist .cnav-sublist-menu {
 }
 
 .aboutUsCompany_aboutUs {
-  margin: 30px auto;
+  margin: 10px auto;
   margin-bottom: 40px;
   max-width: 1130px;
   padding: 10px;
@@ -2057,44 +2063,12 @@ nav .topNavClass .cdropdown .cdropdown_list .cnav-sublist .cnav-sublist-menu {
 }
 
 .aboutUsCompany_aboutUs_heading h3 {
-  font-size: 40px;
-}
-
-.aboutUsCompany_aboutUs_flxPrnt {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: row;
-  -webkit-justify-content: row;
-      -ms-flex-pack: row;
-          justify-content: row;
-}
-
-.aboutUsCompany_aboutUs_flxPrnt .aboutUsCompany_aboutUs_flxChld:first-child {
-  margin-right: 20px;
-  padding-right: 10px;
-}
-
-@media (max-width: 950px) {
-  .aboutUsCompany_aboutUs_flxPrnt .aboutUsCompany_aboutUs_flxChld:first-child {
-    margin-right: 0px;
-    padding-right: 0px;
-    padding: 10px 15px;
-  }
-}
-
-.aboutUsCompany_aboutUs_flxPrnt .aboutUsCompany_aboutUs_flxChld_heading {
-  text-align: center;
-}
-
-.aboutUsCompany_aboutUs_flxPrnt .aboutUsCompany_aboutUs_flxChld_heading h3 {
   color: #112950;
-  font-size: 35px;
-  margin: 9.5px 0px;
+  font-size: 40px;
+  margin: 10px 0px 15px 0px;
 }
 
-.aboutUsCompany_aboutUs_flxPrnt .aboutUsCompany_aboutUs_flxChld_heading h3 span {
+.aboutUsCompany_aboutUs_heading h3 span {
   color: #df2929;
   font-family: 'Lato', sans-serif;
   font-weight: bolder;
@@ -2102,27 +2076,10 @@ nav .topNavClass .cdropdown .cdropdown_list .cnav-sublist .cnav-sublist-menu {
   padding-left: 2px;
 }
 
-.aboutUsCompany_aboutUs_flxPrnt .aboutUsCompany_aboutUs_flxChld_desc p {
+.aboutUsCompany_aboutUs_desc p {
   font-size: 17px;
   line-height: 28.5px;
   text-align: justify;
-  letter-spacing: 0.3px;
-}
-
-.aboutUsCompany_aboutUs_flxPrnt .aboutUsCompany_aboutUs_flxChld img {
-  max-width: 600px;
-}
-
-@media (max-width: 1100px) {
-  .aboutUsCompany_aboutUs_flxPrnt .aboutUsCompany_aboutUs_flxChld img {
-    max-width: 500px;
-  }
-}
-
-@media (max-width: 950px) {
-  .aboutUsCompany_aboutUs_flxPrnt .aboutUsCompany_aboutUs_flxChld img {
-    display: none;
-  }
 }
 
 .aboutUs_Mdir {
@@ -2279,6 +2236,10 @@ nav .topNavClass .cdropdown .cdropdown_list .cnav-sublist .cnav-sublist-menu {
 
 .collab {
   margin: 35px auto 50px auto;
+}
+
+.collab .owl-theme .owl-dots {
+  display: none;
 }
 
 .collab .collab_heading {
