@@ -32,19 +32,33 @@ const Profile = () => {
             <p>
               Masco Shares and securities limited (MSSL) is one of the renowned
               brokerage houses in the capital market of Bangladesh. The company,
-              being the 58th TREC Holder of the Chittagong Stock Exchange
-              Limited, is operating its operation since 2005 with good
-              reputation. The company is authorized and regulated by the
-              Securities and Exchange Commission of the Government of Bangladesh
-              (SEC), and a Full Service Depository Participant of Central
+              being the 35th TREC Holder of the Chittagong Stock Exchange
+              Limited, is operating its operation since 2017 with good
+              reputation. The company is authorized and regulated by Bangladesh
+              Securities and Exchange Commission (BSEC) of the government of
+              Bangladesh, and a Full Service Depository Participant of Central
               Depository Bangladesh Limited (CDBL). The principal activity of
               the Company is to provide all kind of stock brokerage services to
               its clients. MSSL also manages its own portfolio under stock
-              dealer license. Masco Shares and securities limited (MSSL) is one
-              of the renowned brokerage houses in the capital market of
-              Bangladesh. The company, being the 58th TREC Holder of the
-              Chittagong Stock Exchange Limited, is operating its operation
-              since 2005 with good reputation.
+              dealer license.
+            </p>
+          </div>
+          <div className='aboutUsCompany_aboutUs_licence'>
+            <p>
+              <span>BSEC REG:</span> Stock Broker Reg.-3.2/CSE-35/2016/303,
+              Stock Dealer Reg.-3.2/CSE-35/2016/304
+            </p>
+            <p>
+              <span>CSE TREC: </span> 035
+            </p>
+            <p>
+              <span>DP Registration Certificate No:</span> CDBL-DP-429
+            </p>
+            <p>
+              <span>Broker</span> ID: 121035 (Code: MASCO)
+            </p>
+            <p>
+              <span>Dealer</span> ID: 129035 (Code: MASCD)
             </p>
           </div>
         </div>

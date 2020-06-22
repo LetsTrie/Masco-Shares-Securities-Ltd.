@@ -54,8 +54,8 @@ export default [
     _id: 'service6',
     icon: 'icon-beftn',
     title: 'BEFTN',
-    details: `This service is to facilitate transfer fund from their Rapid
-    Security BO account(s) to any other bank's account through
+    details: `This service is to facilitate transfer fund from their trading account(s) of Masco Share &
+    Securities Ltd  to any other bank's account through
     Bangladesh Electronic Fund Transfer Network(BEFTN) operated by
     Bangladesh Bank.`,
   },

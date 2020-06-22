@@ -2054,8 +2054,9 @@ nav .topNavClass .cdropdown .cdropdown_list .cnav-sublist .cnav-sublist-menu {
 .aboutUsCompany_aboutUs {
   margin: 10px auto;
   margin-bottom: 40px;
-  max-width: 1130px;
-  padding: 10px;
+  max-width: 1110px;
+  padding: 10px 14px;
+  color: #535353;
 }
 
 .aboutUsCompany_aboutUs_heading {
@@ -2080,6 +2081,27 @@ nav .topNavClass .cdropdown .cdropdown_list .cnav-sublist .cnav-sublist-menu {
   font-size: 17px;
   line-height: 28.5px;
   text-align: justify;
+}
+
+.aboutUsCompany_aboutUs_licence p {
+  color: #575757;
+  font-weight: bolder;
+  font-size: 17px;
+  line-height: 28.5px;
+  text-align: justify;
+  margin: 0px;
+  padding: 0px;
+}
+
+@media (max-width: 600px) {
+  .aboutUsCompany_aboutUs_licence p {
+    text-align: left;
+    font-weight: normal;
+  }
+  .aboutUsCompany_aboutUs_licence p span {
+    display: block;
+    font-weight: bolder;
+  }
 }
 
 .aboutUs_Mdir {

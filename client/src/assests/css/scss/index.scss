@@ -1289,8 +1289,9 @@ nav {
 .aboutUsCompany_aboutUs {
   margin: 10px auto;
   margin-bottom: 40px;
-  max-width: 1130px;
-  padding: 10px;
+  max-width: 1110px;
+  padding: 10px 14px;
+  color: #535353;
 
   &_heading {
     text-align: center;
@@ -1313,6 +1314,27 @@ nav {
       font-size: 17px;
       line-height: 28.5px;
       text-align: justify;
+    }
+  }
+  &_licence {
+    p {
+      color: #575757;
+
+      font-weight: bolder;
+      font-size: 17px;
+      line-height: 28.5px;
+      text-align: justify;
+
+      margin: 0px;
+      padding: 0px;
+      @media (max-width: 600px) {
+        text-align: left;
+        font-weight: normal;
+        span {
+          display: block;
+          font-weight: bolder;
+        }
+      }
     }
   }
 }

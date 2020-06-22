@@ -52,7 +52,7 @@ const Navbar = () => {
           </li>
           <li className='cnav-list'>
             <a
-              href='https://www.dsebd.org/dse_faq.php'
+              href='https://www.cse.com.bd/contact'
               target='_blank'
               rel='noopener noreferrer'
               className='cnav-link'
