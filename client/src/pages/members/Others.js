@@ -15,7 +15,7 @@ const Others = () => {
       <Navbar />
       <section>
         <div className='aboutUsDirectorsBanner'>
-          <h2>Board Of Directors</h2>
+          <h2>Management Team</h2>
         </div>
       </section>
       <section className='meetExperts meetExpertsDetails'>
