@@ -1,0 +1,6 @@
+npm run build
+Make a file [_redirects] in build folder
+write: /* /index.html 200
+netlify deploy --prod
+netlify ID: 1e86bb6c-2c36-4b08-b259-f7a447df174e
+directory: ./build

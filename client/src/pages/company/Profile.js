@@ -30,17 +30,18 @@ const Profile = () => {
           </div>
           <div class='aboutUsCompany_aboutUs_desc'>
             <p>
-              Masco Shares and securities limited (MSSL) is one of the renowned
+              MASCO Shares and Securities Limited (MSSL) is one of the renowned
               brokerage houses in the capital market of Bangladesh. The company,
               being the 35th TREC Holder of the Chittagong Stock Exchange
               Limited, is operating its operation since 2017 with good
               reputation. The company is authorized and regulated by Bangladesh
               Securities and Exchange Commission (BSEC) of the government of
-              Bangladesh, and a Full Service Depository Participant of Central
+              Bangladesh and a Full Service Depository Participant of Central
               Depository Bangladesh Limited (CDBL). The principal activity of
-              the Company is to provide all kind of stock brokerage services to
-              its clients. MSSL also manages its own portfolio under stock
-              dealer license.
+              the Company is to provide all kinds of stock brokerage services to
+              its clients. Since its inception, MASCO Shares & Securities
+              Limited has been entrusted with both the license i.e. Stock Broker
+              license and Stock Dealer License.
             </p>
           </div>
           <div className='aboutUsCompany_aboutUs_licence'>
@@ -79,12 +80,13 @@ const Profile = () => {
               <div class='quote'>
                 <div class='quote_details'>
                   <p>
-                    <i class='fa fa-quote-left'>&nbsp;&nbsp;</i>Masco is
-                    spearheaded by self-motivated and diversified workforce that
-                    is capable of bringing sustainable business result from
-                    different markets, thrive to explore the futuristic need of
-                    the growing society throgh smart management and grow in a
-                    corporate culture where values and behaviour are the spirit.
+                    <i class='fa fa-quote-left'>&nbsp;&nbsp;</i>
+                    Management of MASCO Shares & Securities Limited cherishes a
+                    dream of making this business entity one of the leading
+                    Houses in the capital market of Bangladesh. To make this
+                    dream come true, all-out attempts backed by the management
+                    of MASCO Group, have always been committed from its
+                    inception of the capital market.
                   </p>
                 </div>
                 <div class='quote_mdir'>
